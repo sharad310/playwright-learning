@@ -1,0 +1,33 @@
+{
+  "name": "playwright-learning",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:api": "playwright test --project=api",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "typescript",
+    "api-testing",
+    "ui-testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Playwright UI and API automation demo using TypeScript",
+  "devDependencies": {
+    "@playwright/test": "1.64.0",
+    "@types/node": "^26.6.5",
+    "playwright": "1.64.0",
+    "typescript": "^7.0.2"
+  }
+}

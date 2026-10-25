@@ -1,0 +1,11 @@
+node_modules/
+.npm/
+.playwright-mcp/
+playwright-report/
+test-results/
+blob-report/
+.env
+.env.*
+!.env.example
+playwright/.auth/
+.auth/
