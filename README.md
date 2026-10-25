@@ -28,6 +28,10 @@ npm test
 
 `npm test` runs the UI suite in Chromium, Firefox, and WebKit, then runs the API suite. The API uses JSONPlaceholder, a free demo service; its create endpoint returns a simulated response and does not persist data.
 
+## New to Playwright?
+
+Start with the [Beginner's Learning Guide](docs/learning-guide.md). It explains how this project is organized, traces a UI and API test from setup to assertion, introduces the Playwright concepts used here, and gives you small exercises to try.
+
 ## Run tests
 
 ```sh
@@ -92,8 +96,8 @@ tests/
   todomvc.spec.ts                Browser UI scenarios
   api/posts.spec.ts              REST API scenarios
 .github/workflows/playwright.yml GitHub Actions workflow
+docs/learning-guide.md           Beginner walkthrough and exercises
 specs/                           Test plans and scope notes
-scripts/                         Optional standalone utilities
 ```
 
 ## Extending the demo
